@@ -1,0 +1,79 @@
+html{
+    background-color:darkgrey;
+}
+
+nav{
+    background-color: darkgrey;
+    text-align: center;
+}
+
+.menu{
+    text-align: center;
+    margin: 0;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu a{
+    padding: 30px; /*para separar los bloques*/
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.menu a:hover{
+    background-color: brown;
+}
+
+.central{
+    background-color: brown;
+    color: darkblue;
+    text-align: center;
+    padding: 40px;
+}
+img{
+    width: 200px;
+    height: auto;
+    margin: auto;
+    display: block;
+    border: 1px solid rgb(17, 1, 4);
+    padding: 10px;
+}
+
+table{
+    width: 60%;
+    margin: 0 auto;
+    border-spacing: 0;
+    text-align: center;
+    
+    
+    }
+tr , td{
+    width: 15%;
+    
+    border: 1px solid   blue; 
+    text-align: center;
+    padding: 2px;
+    }
+caption{
+    background-color:darksalmon;
+    border:     1px solid blue;
+    padding: 5px;
+}
+.australia{
+    background: linear-gradient(blue,red,white)
+
+
+}
+.nuevazelanda{
+    background: linear-gradient(blue,50% ,red,white)
+}
+
+footer{
+background-color:cornsilk;
+}
+footer img{
+    width: 20px;
+}
