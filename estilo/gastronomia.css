@@ -1,7 +1,7 @@
 html{
     background-color:darkgrey;
 }
-.menu{
+.menu1{
     
     margin: auto ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -11,10 +11,10 @@ ul{
 }
 
 
-.principal>li{
+.principal1>li{
     float: left;
 }
-.principal li a{
+.principal1 li a{
     background-color: darkgreen;
     color: white;
     text-decoration: none;
@@ -22,28 +22,26 @@ ul{
     display: block;
 }
 
-.encabezado {
-    background-color: rgba(44, 34, 53, 0.598);
-    font-size: 20px;
+.central{
+    background-color: rgb(157, 134, 134);
+    color: darkblue;
     text-align: center;
-    margin: 0px 100px 0px 100px;
-    font-family: Arial;
-    text-shadow: 0px 0px 20px rgb(82, 5, 144);
+    padding: 10px,10px,10px,10px;
 }
 
-.texto {
-    background-color: rgba(44, 34, 53, 0.598);
+.texto1 {
+    
     margin: 0px 100px 0px 100px;
     font-size: 30px;
 }
 
-.texto img{
+.texto1 img{
     width: 250px;
     float: left;
     margin: 0px 100px 0px 100px;
 }
 
-.texto p{
+.texto1 p{
     text-align: justify;
 }
 
@@ -55,12 +53,23 @@ p{
     margin-inline-end: 0px;
 }
 
-.general h1{
+.general1 h1{
     text-align: center;
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;;
 }
-.area{
+
+.general1 h2{
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.area1{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -68,28 +77,15 @@ p{
     justify-content: center;
 }
 
-.flex-center{
-    display: flex;
-    justify-content: center;
+.imagenes{
+    padding: 15px 20px 15px;
 }
 
-#imagenes{
-    display: grid;
-    grid-template-columns:repeat(2, 3fr);
-    width: 90%;
-    margin: 5%;
-    grid-gap: 30px;
-}
-    
-#imagenes img{
-    width: 100%;
-    transition: all 300ms;
-    position: relative;
+img:hover{
+    opacity: .6;
+    transition: .7s;
 }
 
-#imagenes img:hover{
-    transform: scale(1.15);
-}
 footer{
     background-color:cornsilk;
     }

@@ -67,7 +67,6 @@ p{
     align-items: center;
     justify-content: center;
 }
-
 .flex-center{
     display: flex;
     justify-content: center;
@@ -90,6 +89,7 @@ p{
 #imagenes img:hover{
     transform: scale(1.15);
 }
+
 footer{
     background-color:cornsilk;
     }
